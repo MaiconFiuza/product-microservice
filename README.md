@@ -30,7 +30,7 @@ Serviço de customer
 Disponível na porta http://localhost:8081/
 
 Link para a documentação das API's do projeto (OpenAPI):
-[http://localhost:8083/swagger-ui/index.html](http://localhost:8081/swagger-ui/index.html)
+[http://localhost:8081/swagger-ui/index.html](http://localhost:8081/swagger-ui/index.html)
 
 
 
