@@ -18,8 +18,6 @@ public class CreateProductUseCase {
             Product createdProduct = productGateway.create(product);
 
             return createdProduct;
-        } catch (AlreadyExistException e) {
-            throw new AlreadyExistException(e.getMessage());
         }catch (Exception e) {
             throw new InternalServerError(e.getMessage());
         }
